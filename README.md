@@ -28,7 +28,8 @@ Comment any thing you don't want out... Example:
 	"SetUACHigh",
 	"EnableSMB1",
 ```
-## PowerShell Cmd
+## Window Powershell
+Run this in your powershell to debloat window
 ```
 iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/JJ8R4'))
 ```
